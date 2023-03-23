@@ -1,0 +1,47 @@
+body{
+    background-image: url("");
+    background-color: rgb(175, 205, 235);
+    min-width: 100;
+    min-height: 50;
+
+}
+.button {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    color: rgb(98, 95, 95);
+    border: 2px solid #ea2f00;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    background: #000000;
+  }
+
+  h1,h2,h3 {
+    text-align: center;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 15;
+    color: #000000;
+    margin: 5px 0;
+  }
+
+
+  #myProgress {
+    width: 60%;
+    background-color: grey;
+    align-self: center;
+  }
+  
+  #myBar {
+    width: 2%;
+    height: 12px;
+    background-color: green;
+    align-self: center;
+    text-align: center;
+    font-size: 7;
+  }
+  

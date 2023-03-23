@@ -1,0 +1,27 @@
+{
+    "name": "Socal Coastal Monitor",
+    "version": "1.0.0",
+    "description": "Displays live feed from various locations in southern california. Useful for surfers,scuba divers, and maritime folk alike.",
+    "manifest_version": 3,
+    "author": "Anthony Sanchez",
+    "action":{
+        "default_popup": "popup.html",
+        "default_title": "popup"
+    },
+    "permissions": [
+        
+            ],
+    "host_permissions": [
+        "<all_urls>"
+            ],
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["content.css"]
+    }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+    
+}
