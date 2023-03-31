@@ -10,23 +10,60 @@
 
 </head>
 <body>
-    
-    <h2>Huntington Pier:</h2>
-    <iframe width="720" height="579" src="https://www.youtube.com/embed/xXV3sz92k8w?autoplay=1" title="View from Huntington Beach Pier" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div id="Huntington"></div>
-    
-    <h2>Catalina kep forest:</h2>
-    <iframe width="720" height="579" src="https://www.youtube.com/embed/JH_NzhSsqis?autoplay=1" title="USC Wrigley Catalina Marine Reserve powered by EXPLORE.org" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div id="Catalina"></div>
-    
-    <h2>Santa Monica Pier:</h2>
-    <iframe width="720" height="579" src="https://www.youtube.com/embed/PfDDEVBgvWM?autoplay=1" title="Santa Monica Beach Cam powered by EXPLORE.org" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div id="Santa Monica" ></div>
-
-    <div id="myProgress">
-        <div id="myBar">loading...</loading></div>
-      </div>
     <script src="popup.js"></script>
+
+    <h1>
+    <button id="premium_button">Upgrade to Premium</button>
+    $0.99
+    </h1>
+
+    <h3>
+        <label for="locations">Premium includes live video and weather data for:</label>
+        <select name="locations" id="locations">
+            <option value="none">none</option>
+            <option value="huntington">Huntington</option>
+            <option value="santa_monica">Santa Monica</option>
+            <option value="catalina">Catalina Kelp Forest</option>
+            <option value="venice">Venice</option>
+            
+        </select>
+    </h3>
+    <div id="default_content">
+
+    
+        
+    
+    </div>  
+
+    <div id="premium_content">
+
+        <div id="huntington">
+        <h2>Huntington Pier:</h2>
+        <iframe width="720" height="579" src="https://www.youtube.com/embed/xXV3sz92k8w?autoplay=1" title="View from Huntington Beach Pier" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="Huntington_data"></div>
+        </div>
+
+        <div id="catalina">
+        <h2>Catalina Kelp forest:</h2>
+        <iframe width="720" height="579" src="https://www.youtube.com/embed/JH_NzhSsqis?autoplay=1" title="USC Wrigley Catalina Marine Reserve powered by EXPLORE.org" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="Catalina_data"></div>
+        </div>
+            
+        <div id="santa_monica">
+        <h2>Santa Monica Pier:</h2>
+        <iframe width="720" height="579" src="https://www.youtube.com/embed/PfDDEVBgvWM?autoplay=1" title="Santa Monica Beach Cam powered by EXPLORE.org" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="Santa_Monica_data" ></div>
+        </div>
+
+        <div id="venice">
+        <h2>Venice</h2>
+        <iframe width="720" height="579" src="https://www.youtube.com/embed/w_DfTc7F5oQ?autoplay=1" title="Venice Beach Live Camera · Los Angeles Live Stream · presented by the Venice V Hotel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+        <div id="venice_data"></div>
+        </div>
+        
+
+    </div>
+
     
 </body>
 </html>
