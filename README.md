@@ -6,4 +6,5 @@ https://www.youtube.com/watch?v=Z07k7MOiUFQ
 
 # Distribution
 The extension is available on the chrome web store:
+#
 https://chrome.google.com/webstore/detail/socal-coastal-monitor/omgjkgnbfjofgjloklgpjnhhlealajke?hl=en&authuser=0
